@@ -139,7 +139,7 @@ button {
 
 .box-sin hr, .box-cen hr, .box-des hr {
   width: 30%;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .box-sin p, .box-cen p, .box-des p {
