@@ -120,7 +120,7 @@ button {
 .box-sin, .box-cen, .box-des {
   float: left;
   height: 400px;
-  width: 33.3%;
+  width: 33.33%;
   text-align: center;
   padding: 50px;
 }
@@ -128,13 +128,20 @@ button {
 .box-sin svg, .box-cen svg, .box-des svg {
   height: 30%;
   width: 100%;
+  margin: 20px 0;
 }
 
 .box-sin h3, .box-cen h3, .box-des h3 {
   color: #7CBB02;
   margin: 20px 0;
+  font-size: 22px;
 }
 
 .box-sin hr, .box-cen hr, .box-des hr {
   width: 30%;
+  margin: 20px 0;
+}
+
+.box-sin p, .box-cen p, .box-des p {
+  color: gray;
 }
