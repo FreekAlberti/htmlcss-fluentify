@@ -111,3 +111,25 @@ button {
   padding-top: 15px;
   color: gray;
 }
+
+.vantaggi {
+  background-color: red;
+}
+
+.vantaggi::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-sin, .box-cen, .box-des {
+  float: left;
+  height: 200px;
+  width: 33.3%;
+  background-color: green;
+}
+
+.box-sin svg, .box-cen svg, .box-des svg {
+  height: 30%;
+  width: 100%;
+}
