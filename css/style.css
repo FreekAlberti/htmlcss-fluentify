@@ -8,13 +8,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  width: 1300px;
-  margin: auto;
-}
-
 header {
-  height: 400px;
+  height: 500px;
   background-color: #224C77;
   position: relative;
 }
@@ -45,19 +40,33 @@ header {
 
 .menu ul li {
   list-style: none;
-  padding: 0 7px;
+  padding: 0 10px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .menu ul a {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .menu ul li:hover {
   text-decoration: underline;
+}
+
+button {
+  background-color: #7CBB02;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  padding: 10px;
+}
+
+#tasto {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
 }
 
 .banner img {
