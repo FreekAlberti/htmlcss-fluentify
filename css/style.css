@@ -70,8 +70,7 @@ button {
 }
 
 .banner img {
-  height: 70%;
-  width: 70%;
+  height: 80%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -83,13 +82,13 @@ button {
   width: 30%;
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 15%;
 }
 
 .banner button {
   position: absolute;
   top: 60%;
-  left: 10%;
+  left: 15%;
   padding: 20px;
 }
 
@@ -112,10 +111,6 @@ button {
   color: gray;
 }
 
-.vantaggi {
-  background-color: red;
-}
-
 .vantaggi::after {
   content: "";
   display: table;
@@ -124,12 +119,22 @@ button {
 
 .box-sin, .box-cen, .box-des {
   float: left;
-  height: 200px;
+  height: 400px;
   width: 33.3%;
-  background-color: green;
+  text-align: center;
+  padding: 50px;
 }
 
 .box-sin svg, .box-cen svg, .box-des svg {
   height: 30%;
   width: 100%;
+}
+
+.box-sin h3, .box-cen h3, .box-des h3 {
+  color: #7CBB02;
+  margin: 20px 0;
+}
+
+.box-sin hr, .box-cen hr, .box-des hr {
+  width: 30%;
 }
