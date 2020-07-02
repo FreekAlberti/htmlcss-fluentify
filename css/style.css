@@ -3,3 +3,42 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  height: 400px;
+  background-color: red;
+}
+
+.menu {
+  height: 80px;
+  background-color: green;
+}
+
+.menu::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo, .nav-sin, .nav-des {
+  float: left;
+}
+
+.nav-sin, .nav-des {
+  width: 35%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
