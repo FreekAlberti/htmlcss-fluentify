@@ -15,9 +15,12 @@ header {
 
 .container {
   width: 80%;
-  height: 100%;
   margin: auto;
-  background-image: url(../img/img/background-header.png);
+}
+
+.container-header {
+  height: 100%;
+  background-image: url(../img/background-header.png);
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: 106% 106%;
@@ -49,7 +52,7 @@ header {
   text-align: left;
 }
 
-.logo svg {
+.logo img {
   vertical-align: sub;
 }
 
@@ -134,16 +137,15 @@ button {
   padding: 50px;
 }
 
-.box-sin svg, .box-cen svg, .box-des svg {
-  height: 30%;
-  width: 100%;
+.box-sin img, .box-cen img, .box-des img {
+  height: 45%;
   margin: 20px 0;
 }
 
 .box-sin h3, .box-cen h3, .box-des h3 {
   color: #7CBB02;
   margin: 20px 0;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .box-sin hr, .box-cen hr, .box-des hr {
